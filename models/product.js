@@ -6,7 +6,6 @@ var Product = new keystone.List('Product', {
     map: { name: 'title' },
     singular: 'Product',
     plural: 'Products',
-  
   });
 
   Product.add({

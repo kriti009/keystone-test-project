@@ -60,7 +60,9 @@ keystone.set('nav', {
 });
 
 // Start Keystone to connect to your database and initialise the web server
+// keystone.set('port', 5050);
 
 
-
-keystone.start();
+keystone.start(function(){
+	console.log("Server Connected!!!");
+});
